@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Nerko One', cursive;
+  background-color: #add8e6;
+}
+/* CONTAINER */
+.container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* TITLE */
+
+.container .title{
+  margin-bottom: 50px;
+}
+
+.container .title h1{
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* /TITLE */
+
+/* SECTION */
+
+.container .box{
+  width: 18%;
+  height: 300px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+/* /SECTION */
+
+/* FOOTER */
+
+footer h3{
+  font-size: 30px;
+}
+/* /FOOTER */
+
+/* /CONTAINER */
